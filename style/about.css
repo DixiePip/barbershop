@@ -23,8 +23,29 @@
     gap: 34px 42px;
 }
 .about__item {
+    padding: 6px 6px 6px 96px;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 80px;
 }
+
+.about__item_top {
+    background-image: url('../img/top.svg');
+}
+.about__item_master {
+    background-image: url('../img/master.svg');
+}
+.about__item_garant {
+    background-image: url('../img/garant.svg');
+}
+
 .about__item-title {
+    margin: 0 0 8px;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
 }
 .about__item-description {
+    margin: 0;
+    line-height: 130%;
 }
