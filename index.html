@@ -96,7 +96,7 @@
                 <p class="price__tagline">...бесценна, но всё же</p>
 
                 <div class="price__wrapper-content">
-                    <div class="price_content">
+                    <div class="price__content">
                         <ul class="price__list">
                             <li class="price__item">
                                 <span class="price__item-title">Стрижка ножницами</span>
@@ -146,7 +146,7 @@
                     </li>
                     <li class="about__item about__item_master">
                         <h3 class="about__item-title">Мастера бород и усов</h3>
-                        <p class="about__item-description">Мы заботливо уложим Вашу бороду и$nbsусы</p>
+                        <p class="about__item-description">Мы заботливо уложим Вашу бороду и&nbsp;усы</p>
                     </li>
                     <li class="about__item about__item_garant">
                         <h3 class="about__item-title">Гарантия качества</h3>
@@ -165,7 +165,7 @@
                     <li class="reserve__item">Выберете специалиста</li>
                     <li class="reserve__item">Выберете удобный день и время</li>
                 </ol>
-                <form action="" class="reserve__form">
+                <form class="reserve__form">
                     <div class="reserve__form-container">
                         <fieldset class="reserve__fieldset">
                             <legend class="reserve__legend">Услуга</legend>
@@ -334,16 +334,15 @@
                     </ul>
                 </div>
 
-                <ul class="footer__developers"></ul>
+                <ul class="footer__developers">
+                    
                     <li class="footer__developer">
-                        Designer: <a href="#">Oscar Astapov</a>
-                    </li>
-                    <li class="footer__developer">
-                        Developer: <a href="#">Oscar Astapov</a>
+                        Developer: <a class="footer__developer-link" href="#">Oscar Astapov</a>
                     </li>
                     
-                    <p class="footer__copyright">cdcd 2023, werf</p>
                     
+                </ul>
+                <p class="footer__copyright">cdcd 2023, werf</p>
             </div>
         </div>
     </footer>

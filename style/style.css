@@ -21,7 +21,8 @@ body {
     font-weight: 400;
     line-height: 1.2;
     color: rgb(243, 243, 243);
-    background-color: #241D1C;
+    background-color: #1A1A1D;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 }
 
 img {
