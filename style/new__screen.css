@@ -1,0 +1,125 @@
+.new__screen {
+    max-width: 1312px;
+    height: 100vh;
+    padding: 0 48px;
+    margin: 0 auto;
+}
+
+.new__screen-p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.new__screen-h1 {
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 150%;
+    font-weight: 400;
+}
+
+.new__screen-img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.new__screen-btn {
+    font-size: 20px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.new__screen-p-a {
+    display: block;
+    text-align: center;
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    border-radius: 4px;
+
+    background: url('../img/object_1.jpg') no-repeat center top / cover;
+}
+.new__screen-a {
+    text-decoration: none;
+    background-color: #1A1A1D;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.new__screen-a:hover {
+    background-color: #fff;
+    color: rgb(30, 30, 30);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width:1204px) {
+    .new__screen-h1 {
+        padding-top: 20px;
+        font-size: 45px;
+        line-height: 120%;
+        font-weight: 400;
+    }
+}
+
+@media (max-width: 768px) {
+    .new__screen-h1 {
+        padding-top: 20px;
+        font-size: 40px;
+        line-height: 120%;
+        font-weight: 400;
+    }
+    .new__screen-img {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 560px) {
+    .new__screen {
+        padding: 0 24px;
+    }
+    .new__screen-h1 {
+        padding-top: 13vh;
+        font-size: 7vw;
+        line-height: 120%;
+        font-weight: 400;
+    }
+    .new__screen-p-a {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    
+        background: url('../img/object_1.jpg') no-repeat center top / cover;
+    }
+    .new__screen-a {
+        font-size: 3vw;
+    }
+
+
+    .new__screen-img {
+        padding-top: 8vh;
+    }
+    .new__screen-p-a {
+        margin-top: 10vh;
+    }
+}
+
+@media (max-width: 370px) {
+    .header__logo {
+        max-width: 100%;
+        width: 40vw;
+    }
+    .header__link-number {
+        font-size: 4vw;
+    }
+}
