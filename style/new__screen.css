@@ -42,7 +42,7 @@
 
     border-radius: 4px;
 
-    background: url('../img/object_1.jpg') no-repeat center top / cover;
+    background: url('../img/object_2.jpg') no-repeat center top / cover;
 }
 .new__screen-a {
     text-decoration: none;
@@ -99,7 +99,7 @@
         padding-top: 30px;
         padding-bottom: 30px;
     
-        background: url('../img/object_1.jpg') no-repeat center top / cover;
+        /* background: url('../img/object_1.jpg') no-repeat center top / cover; */
     }
     .new__screen-a {
         font-size: 3vw;
