@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
 .new__screen {
     max-width: 1312px;
     height: 100vh;
@@ -11,6 +12,7 @@
     margin: 0;
 }
 .new__screen-h1 {
+    font-family: "Viaoda Libre";
     margin: 0;
     padding: 0;
     padding-top: 40px;
@@ -19,6 +21,10 @@
     text-transform: uppercase;
     line-height: 150%;
     font-weight: 400;
+}
+.new__screen-h1 p {
+    line-height: 110%;
+    font-size: 20px;
 }
 
 .new__screen-img {
@@ -87,19 +93,23 @@
 
 @media (max-width: 560px) {
     .new__screen {
+        background: url('../img/bg_one.png') center top / cover;
         padding: 0 24px;
     }
     .new__screen-h1 {
-        padding-top: 13vh;
+        padding-top: 10vh;
         font-size: 7vw;
         line-height: 120%;
         font-weight: 400;
+    }
+    .new__screen-h1 p {
+        line-height: 110%;
+        font-size: 3vw;
     }
     .new__screen-p-a {
         padding-top: 30px;
         padding-bottom: 30px;
     
-        /* background: url('../img/object_1.jpg') no-repeat center top / cover; */
     }
     .new__screen-a {
         font-size: 3vw;

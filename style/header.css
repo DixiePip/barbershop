@@ -25,6 +25,9 @@
     }
 }
 @media (max-width: 560px) {
+    .header {
+        background-color: #000;
+    }
     .header__container {
         padding-top: 12px;
         padding-bottom: 12px;

@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 .hero {
     padding-top: 0px;
     padding-bottom: 62px;
 }
 
 .hero__title {
+    font-family: "Amatic SC";
     font-weight: 400;
     font-size: 54px;
     text-transform: uppercase;
@@ -33,7 +36,7 @@
     }
 
     .hero__title {
-        font-size: 24px;
+        font-size: 9vw;
         margin-bottom: 16px;
     }
 }
