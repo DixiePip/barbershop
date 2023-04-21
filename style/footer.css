@@ -24,12 +24,12 @@
     line-height: 100%;
 }
 .footer__developer-link {
-    color: inherit ;
+    color: rgb(192, 112, 8);
     text-decoration: none;
 }
 .footer__developer-link:hover {
     text-decoration: underline;
-    color: rgb(192, 112, 8);
+    color: rgb(255, 255, 255);
 }
 .footer__copyright {
     margin: 0;
@@ -52,5 +52,18 @@
 
     .footer__copyright {
         font-size: 10px;
+    }
+}
+
+@media (max-width:840px ) and (min-width:561px) { 
+    .footer__container {
+        display: block;
+    }
+    .footer__navigation {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .footer__developers {
+        padding-bottom: 10px;
     }
 }
