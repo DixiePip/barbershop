@@ -1,4 +1,9 @@
+.footer {
+    background-color: #000;
+}
+
 .footer__container {
+    
     padding-top: 17px;
     padding-bottom: 42px;
     border-top: 1px solid #fff;

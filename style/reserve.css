@@ -12,25 +12,13 @@
     padding-bottom: 20px;
     line-height: 130%;
 }
-.reserve__item-link {
-    color: rgb(192, 112, 8);
-}
+
 
 
 @media (max-width:768px) {
-    .reserve__title {
-        font-size: 32px;
-    }
-    .reserve__list {
-        font-size: 16px;
-    }
+  
 }
 
 @media (max-width:560px) {
-    .reserve__title {
-        font-size: 4.5vw;
-    }
-    .reserve__list {
-        font-size: 3.5vw;
-    }
+    
 }
