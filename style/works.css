@@ -14,12 +14,12 @@
 
 .slider_2 {
     position: relative;
-    padding: 0 50px;
+    padding: 0 5px;
 
 }
-.slider__item img {
+.slider_2__item img {
     width: 100%;
-    max-width: 200px;
+    max-width: 270px;
 }
 /* .slider .slick-arrow {
     position: absolute;
@@ -59,9 +59,11 @@
     transition: all 0.3s ease 0s;
     opacity: 0.4;
     text-align: center;
+    filter: grayscale(1);
 }
 .slider_2__item.slick-center {
     opacity: 1;
+    filter: grayscale(0);
 }
 .slider_2 .slick-dots li.slick-active button {
     background-color: transparent;
@@ -71,11 +73,46 @@
 
 
 .works__h1 {
+    font-size: 40px;
     text-align: center;
     font-weight: 400;
     text-transform: uppercase;
 }
 .works__p {
+    font-size: 16px;
     text-align: center;
     margin-bottom: 50px;
+}
+.works__p a {
+    text-decoration: none;
+    color: rgb(192, 112, 8);
+}
+
+
+@media (max-width: 1024px) {
+    .works__h1 {
+        font-size: 40px;
+    }
+}
+@media (max-width: 768px) {
+    .works__h1 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 560px) {
+    .works__h1 { 
+        font-size: 20px;
+    }
+    .works__p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .slider_2 .slick-dots li{
+        margin: 0 0px;
+    }
+    .slick-track {
+        display: flex;
+        gap: 5px;
+    }
+    
 }

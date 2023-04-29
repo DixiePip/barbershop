@@ -1,7 +1,7 @@
 .reserve__title {
     font-family: 'Raleway';
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 15px;
     text-transform: uppercase;
     text-align: center;
@@ -17,6 +17,11 @@
 .reserve__img {
     max-width: 100%;
     width: 250px;
+    filter: grayscale(1);
+}
+.reserve__img:hover {
+    filter: grayscale(0);
+    transition: all 0.3s ;
 }
 .reserve__barber_1,
 .reserve__barber_2,
@@ -25,16 +30,16 @@
 .reserve__barber_5 {
     text-align: center;
     list-style-type: none;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
 }
-.reserve__barber_1:hover,
+/* .reserve__barber_1:hover,
 .reserve__barber_2:hover,
 .reserve__barber_3:hover,
 .reserve__barber_4:hover,
 .reserve__barber_5:hover {
     filter: grayscale(0);
     transition: 0.8s all;
-}
+} */
 .reserve__barber_1 a,
 .reserve__barber_2 a,
 .reserve__barber_3 a,
@@ -59,14 +64,17 @@
 }
 
 .reserve__name {
-    font-size: 15px;
+    /* margin-top: -5px; */
+    font-size: 22px;
     text-transform: uppercase;
     color: rgb(192, 112, 8);
+    margin-bottom: 10px;
 }
 .reserve__name-top {
-    font-size: 12px;
+    font-size: 16px;
 }
 .reserve__footer {
+    font-size: 16px;
     padding: 0;
     margin: 20px 0 0 0;
     padding: 20px 0 25px 0;
@@ -75,6 +83,9 @@
 
 
 @media (max-width:768px) {
+    .reserve__title { 
+        font-size: 32px;
+    }
     .reserve__list {
         margin-top: 20px;
        flex-wrap: wrap;
@@ -89,10 +100,25 @@
         text-align: center;
         padding-top: 30px;
     }
+    .reserve__list {
+        gap: 50px;
+        
+    }
 }
 
 @media (max-width:560px) {
     .reserve__title {
         font-size: 20px;
+    }
+    .reserve__img {
+        width: 70%;
+    }
+    .reserve__list {
+        margin-top: 20px;
+       /* flex-wrap: nowrap; */
+       row-gap: 20px;
+    }
+    .reserve__name {
+        margin-top: 5px;
     }
 }

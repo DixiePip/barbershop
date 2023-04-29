@@ -14,7 +14,17 @@ $(document).ready(function(){
         pauseOnFocus:false,
         pauseOnHover:false,
         swipe:false,
-        centerMode:true
+        centerMode:true,
+        responsive:[
+            {
+                breakpoint: 560,
+                settings: {
+                    slidesToShow:1
+                }
+            }
+        ]
+
+        // variableWidth:true
 
     });
 });
