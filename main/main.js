@@ -7,10 +7,10 @@ const removePreload = (elem) => {
 };
 
 const startSlider = () => {
-    const sliderItems = document.querySelectorAll('.slider__item');
-    const sliderList = document.querySelector('.slider__list');
-    const btnPrevSlider = document.querySelector('.slider__arrow_left');
-    const btnNextSlider = document.querySelector('.slider__arrow_right');
+    const sliderItems = document.querySelectorAll('.slider__itemm');
+    const sliderList = document.querySelector('.slider__listt');
+    const btnPrevSlider = document.querySelector('.slider__arroww_left');
+    const btnNextSlider = document.querySelector('.slider__arroww_right');
 
     let activeSlider = 1;
     let position = 0;
@@ -34,21 +34,21 @@ const startSlider = () => {
     checkSlider();
 
     const nextSlider = () => {
-        sliderItems[activeSlider]?.classList.remove('slider__item_active');
+        sliderItems[activeSlider]?.classList.remove('slider__itemm_active');
         position = -sliderItems[0].clientWidth * activeSlider;
         
         sliderList.style.transform = `translateX(${position}px)`;
         activeSlider += 1;
-        sliderItems[activeSlider]?.classList.add('slider__item_active');
+        sliderItems[activeSlider]?.classList.add('slider__itemm_active');
         checkSlider();
     };
     const prevSlider = () => {
-        sliderItems[activeSlider]?.classList.remove('slider__item_active');
+        sliderItems[activeSlider]?.classList.remove('slider__itemm_active');
         position = -sliderItems[0].clientWidth * (activeSlider - 2);
         
         sliderList.style.transform = `translateX(${position}px)`;
         activeSlider -= 1;
-        sliderItems[activeSlider]?.classList.add('slider__item_active');
+        sliderItems[activeSlider]?.classList.add('slider__itemm_active');
         checkSlider();
     };
     btnPrevSlider.addEventListener('click', prevSlider);
@@ -59,7 +59,7 @@ const startSlider = () => {
         if (activeSlider + 2 > sliderItems.length && 
             document.documentElement.offsetWidth > 560) {
                 activeSlider = sliderItems.length - 2;
-                sliderItems[activeSlider]?.classList.add('slider__item_active');
+                sliderItems[activeSlider]?.classList.add('slider__itemm_active');
         }
 
 
@@ -70,8 +70,8 @@ const startSlider = () => {
 };
 
 const initSlider = () => {
-    const slider = document.querySelector('.slider');
-    const sliderContainer = document.querySelector('.slider__container');
+    const slider = document.querySelector('.sliderr');
+    const sliderContainer = document.querySelector('.sliderr__container');
 
     sliderContainer.style.display = 'none';
     addPreload(slider);
@@ -125,3 +125,6 @@ function init() {
 
 
 ymaps.ready(init);
+
+
+
