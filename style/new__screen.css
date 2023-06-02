@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .new__screen {
     max-width: 1312px;
     height: 100vh;
     padding: 0 48px;
     margin: 0 auto;
+
+    background: url(../img/unnamed-3.png) no-repeat center  top / cover;
 }
 
 .new__screen-p {
@@ -48,7 +51,18 @@
 
     border-radius: 4px;
 
-    background: url('../img/object_2.jpg') no-repeat center top / cover;
+    
+}
+.new__screen-p-sl {
+    font-size: 30px;
+    font-family: "Amatic SC";
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.marker {
+    background-color: rgba(32, 32, 36, 0.7);
 }
 .new__screen-a {
     text-decoration: none;
