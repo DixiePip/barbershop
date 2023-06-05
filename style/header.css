@@ -27,6 +27,7 @@
 @media (max-width: 560px) {
     .header {
         background-color: #000;
+        display: none;
     }
     .header__container {
         padding-top: 12px;

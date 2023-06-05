@@ -107,7 +107,7 @@
 
 @media (max-width: 560px) {
     .new__screen {
-        background: url('../img/bg_one.png') center top / cover;
+        background: url('../img/top.jpg') center top / cover;
         padding: 0 24px;
     }
     .new__screen-h1 {
