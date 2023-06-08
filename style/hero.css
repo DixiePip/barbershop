@@ -32,11 +32,12 @@
 
 @media (max-width: 560px) {
     .hero {
-        padding: 32px 0;
+        padding:10px 0 32px 0;
     }
 
     .hero__title {
         font-size: 9vw;
         margin-bottom: 16px;
+        margin-top: 10px;
     }
 }

@@ -103,10 +103,10 @@
 }
 @media (max-width: 560px) {
     .works__h1 { 
-        font-size: 20px;
+        font-size: 8vw;
     }
     .works__p {
-        font-size: 12px;
+        font-size: 3vw;
         margin-top: 15px;
     }
     .slider_2 .slick-dots li{
