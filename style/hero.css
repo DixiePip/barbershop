@@ -3,6 +3,7 @@
 .hero {
     padding-top: 0px;
     padding-bottom: 62px;
+    background-color: #fff;
 }
 
 .hero__title {
@@ -39,5 +40,13 @@
         font-size: 9vw;
         margin-bottom: 16px;
         margin-top: 10px;
+    }
+    .slogan {
+        color: #000;
+    }
+
+    .slider__itemm_active {
+        color: #000;
+        background-color: #000;
     }
 }

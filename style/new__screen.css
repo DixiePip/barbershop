@@ -110,7 +110,7 @@
 
 @media (max-width: 560px) {
     .new__screen {
-        background: url('../img/top.jpg') center top / cover;
+        background: url('../img/top_2.jpg') center top / cover;
         padding: 0 10px;
     }
     .new__screen-h1 {
@@ -159,7 +159,7 @@
         justify-content: space-between;
         margin: 0;
         padding: 0;
-        color: rgb(205, 205, 205);
+        color: rgb(115, 114, 114);
         text-transform: uppercase;
 
         list-style-type: none;
@@ -170,7 +170,7 @@
     }
    .reser a {
     text-decoration: none;
-    color: rgb(205, 205, 205);
+    color: rgb(115, 114, 114);
    }
    .reser, .borovl {
     font-size: 4.5vw;
