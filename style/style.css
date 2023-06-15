@@ -6,7 +6,6 @@
         url('../fonts/raleway-v28-latin_cyrillic-regular.woff') format('woff');
 }
 
-
 html {
     box-sizing: border-box;
 }
@@ -45,5 +44,8 @@ img {
 @media (max-width: 560px) {
     .container {
         padding: 0 24px;
+    }
+    body {
+        background-color: #000;
     }
 }

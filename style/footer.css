@@ -48,7 +48,9 @@
         gap: 32px;
     }
     .footer__navigation {
-        justify-self: flex-start;
+        display: flex;
+        justify-self:flex-start;
+        justify-content: space-between;
     }
     
     .footer__developers {
@@ -58,6 +60,7 @@
     .footer__copyright {
         font-size: 10px;
     }
+   
 }
 
 @media (max-width:840px ) and (min-width:561px) { 

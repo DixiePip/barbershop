@@ -1,4 +1,4 @@
-.navigation__list {
+.navigation__list, .navigation__list_two {
     display: flex;
     align-items: center;
     margin: 0;
@@ -19,9 +19,32 @@
     .navigation__link {
         font-size: 12px;
     }
-    .navigation__list  {
+    .navigation__list, .navigation__list_two  {
        flex-direction: column;
        gap: 16px;
        align-items: flex-start;
+    }
+    .navigation__list_two {
+        align-items: flex-end;
+    }
+    .navigation__list_two {
+        align-items: flex-end;
+    }
+    
+}
+
+@media (max-width:560px ) and (min-width:380px) { 
+    .navigation {
+        gap: 30vw;
+    }
+}
+@media (max-width:380px ) and (min-width:350px) { 
+    .navigation {
+        gap: 20vw;
+    }
+}
+@media (max-width:350px ) and (min-width:300px) { 
+    .navigation {
+        gap: 15vw;
     }
 }
