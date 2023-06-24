@@ -44,7 +44,7 @@ img {
 
 @media (max-width: 560px) {
     .new__screen {
-        background: url('../img/map.png') center top / cover;
+        background: url('../img/komanda_backgraund.jpg') center top / cover;
         padding: 0 10px;
         height: 100vh;
     }
