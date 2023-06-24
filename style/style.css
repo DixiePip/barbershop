@@ -41,11 +41,19 @@ img {
     margin: 0 auto;
 }
 
+.slider_bottom {
+    display: none;
+}
+
 @media (max-width: 560px) {
     .container {
         padding: 0 24px;
     }
     body {
         background-color: #000;
+    }
+    .slider_bottom {
+        display: block;
+        width: 100%;
     }
 }

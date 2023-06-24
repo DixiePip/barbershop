@@ -17,7 +17,7 @@
     margin: 0;
 }
 .new__screen-h1 {
-    font-family: "Viaoda Libre";
+    font-family: 'Alumni Sans';
     margin: 0;
     padding: 0;
     padding-top: 40px;
@@ -67,6 +67,8 @@
     background-color: rgba(32, 32, 36, 0.7);
 }
 .new__screen-a {
+    font-size: 20px;
+    font-family: 'Alumni Sans';
     text-decoration: none;
     background-color: #1A1A1D;
     padding: 10px 30px;
@@ -170,7 +172,7 @@
         max-width: 100%;
         width: 20vw;
     }
-   .reser a {
+   .borovl a, .reser a {
    
     text-decoration: none;
     color: rgb(115, 114, 114);
