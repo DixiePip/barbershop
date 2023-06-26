@@ -1,0 +1,115 @@
+h1, p {
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+.academy {
+    text-align: center;
+    line-height: 0.7;
+}
+.academy h1 {
+    /* text-align: center; */
+    display: block;
+    font-size: 25vw;
+}
+.kyrs {
+    font-size: 6vw;
+}
+
+
+.tup {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.tup p {
+    display: block;
+}
+.tup p a {
+    font-weight: 700;
+    font-size: 8vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.avtor {
+    font-size: 4vw;
+    color: rgb(193, 193, 193);
+}
+
+.advantages ul{
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+    list-style-type: none;
+}
+.advantages ul li h2 {
+    font-size: 8vw;
+    margin: 0;
+}
+.advantages ul li {
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 20px;
+    background-color: #cef751;
+}
+
+
+.why_barber {
+    text-align: center;
+}
+.why_barber h1 {
+    margin-top: 50px;
+}
+.why_barber h2 {
+    color: #cef751;
+}
+.why_barber_answer ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: left;
+}
+.why_barber_answer ul li {
+    padding: 10px;
+    border-radius: 5px;
+    color: #000;
+    background-color: #cbd0d0;
+    margin-bottom: 20px;
+}
+.why_barber_answer ul li h3 {
+    margin: 0;
+    font-size: 8vw;
+}
+
+.b {
+    margin: 0;
+    padding: 0;
+}
+
+.self {
+    padding: 0;
+    margin-top: -10px;
+    height: 100vh;
+    background: url('../img/bacgr_png.png') center top / cover;
+
+}
+
+.i {
+    color: #cbd0d0;
+}
+
+.fraz {
+    padding: 5px;
+    color: #000;
+    border-radius: 10px;
+    background-color: rgba(206, 247, 81, 0.735);
+    margin-top: 75%;
+    margin-right: 30%;
+    font-size: 5vw;
+}
