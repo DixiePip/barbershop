@@ -32,11 +32,14 @@ h1, p {
     font-size: 8vw;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    background-color: #fff;
+    background-color: #cef751;
     border-radius: 5px;
     padding: 10px 20px;
 }
-
+.tup p a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
 .avtor {
     font-size: 4vw;
     color: rgb(193, 193, 193);
@@ -57,7 +60,7 @@ h1, p {
     border-radius: 5px;
     color: #000;
     margin-bottom: 20px;
-    background-color: #cef751;
+    background-color: rgb(193, 193, 193);
 }
 
 
@@ -65,7 +68,9 @@ h1, p {
     text-align: center;
 }
 .why_barber h1 {
+    font-size: 17vw;
     margin-top: 50px;
+    line-height: 0.7;
 }
 .why_barber h2 {
     color: #cef751;
@@ -82,9 +87,35 @@ h1, p {
     background-color: #cbd0d0;
     margin-bottom: 20px;
 }
+.why_barber_answer ul li:last-child {
+    margin-bottom: 20px;
+}
 .why_barber_answer ul li h3 {
     margin: 0;
     font-size: 8vw;
+}
+
+
+.tup_2 {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+.tup_2 p {
+    display: block;
+}
+.tup_2 p a {
+    font-weight: 700;
+    font-size: 8vw;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: #cef751;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.tup_2 p a:hover {
+    color: rgb(0, 0, 0);
+    background-color: #fff
 }
 
 .b {
