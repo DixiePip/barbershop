@@ -1,0 +1,57 @@
+.shop_h1 {
+    font-size: 20vw;
+    line-height: 0.8;
+    margin-left: -24px;
+    margin-right: -24px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align:inherit;
+}
+/* .shop_p {
+    font-size: 6vw;
+    text-align: right;
+    margin-right: -24px;
+} */
+.shop_color_h1 {
+    color: #a6191c;
+}
+.shop ul li img {
+    max-width: 100%;
+    width: 1fr;
+}
+.shop ul {
+    padding: 20px 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style-type: none;
+    text-align: center;
+    row-gap: 20px;
+}
+.shop ul li {
+    width: 45%;
+    
+    background-color: #fff;
+    color: #000;
+}
+.shop ul li p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.color_byn {
+    text-decoration: underline;
+    font-weight: 600;
+    color: #a6191c;
+}
+.buy_productions {
+    font-size: 5vw;
+    padding: 0px 24px 10px 24px;
+    text-align: center;
+}
+.buy_productions a {
+    text-decoration: underline;
+    color: #a6191c;
+}
+.buy_productions a:hover {
+    color: #fff;
+}

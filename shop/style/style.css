@@ -15,7 +15,7 @@ body {
     font-weight: 400;
     line-height: 1.2;
     color: rgb(243, 243, 243);
-    background-color: #000000;
+    background-color: #c49c5e;
     font-feature-settings: 'pnum' on, 'lnum' on;
     margin: 0;
 }
@@ -32,7 +32,7 @@ img {
 
 .container {
     max-width: 1312px;
-    padding: 0 48px;
+    padding: 0 24px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,7 @@ img {
 
 @media (max-width: 560px) {
     .new__screen {
-        background: url('../img/map.png') center top / cover;
+        background: url('../img/komanda_backgraund.jpg') center top / cover;
         padding: 0 10px;
         height: 100vh;
     }
@@ -123,7 +123,20 @@ img {
     color: #fff;
    }
    .step_by_step__screen {
-    color: #929293;
+    color: #383838;
+   }
+   .borovl a {
+    text-decoration: none;
+    color: #fff;
+   }
+   .mushket:hover {
+    color: #a6191c;
+   }
+   .reser a:hover {
+    color: #a6191c;
+   }
+   .borovl a:hover {
+    color: #a6191c;
    }
 }
 

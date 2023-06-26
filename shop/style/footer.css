@@ -1,6 +1,6 @@
 .footer {
     font-family: 'Raleway', sans-serif;
-    background-color: #000;
+    background-color: #c49c5e;
 }
 
 .footer__container {
@@ -30,7 +30,7 @@
     line-height: 100%;
 }
 .footer__developer-link {
-    color: rgb(192, 112, 8);
+    color:#6c5e53;
     text-decoration: none;
 }
 .footer__developer-link:hover {
