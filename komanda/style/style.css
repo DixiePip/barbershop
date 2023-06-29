@@ -132,6 +132,9 @@ img {
     /* color: #707070; */
     text-decoration:line-through;
 }
+.footer .container {
+    padding: 0 24px;
+}
 
 }
 
