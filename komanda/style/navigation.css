@@ -30,46 +30,31 @@
     .navigation__list_two {
         align-items: flex-end;
     }
-    
+    .navigation__item:hover {
+        color: rgb(192, 112, 8);
+    }
+    .navigation {
+        gap: 55vw;
+    }
 }
 
-@media (max-width:560px ) and (min-width:445px) { 
+@media (max-width:500px ) and (min-width:400px) { 
+    .navigation {
+        gap: 50vw;
+    }
+}
+@media (max-width:454px ) and (min-width:400px) { 
+    .navigation {
+        gap: 40vw;
+    }
+}
+@media (max-width:400px ) and (min-width:323px) { 
     .navigation {
         gap: 30vw;
     }
 }
-@media (max-width:445px ) and (min-width:415px) { 
+@media (max-width:323px ) and (min-width:300px) { 
     .navigation {
         gap: 25vw;
-    }
-}
-@media (max-width:415px ) and (min-width:390px) { 
-    .navigation {
-        gap: 20vw;
-    }
-}
-@media (max-width:390px ) and (min-width:366px) { 
-    .navigation {
-        gap: 15vw;
-    }
-}
-@media (max-width:366px ) and (min-width:354px) { 
-    .navigation {
-        gap: 12vw;
-    }
-}
-@media (max-width:354px ) and (min-width:340px) { 
-    .navigation {
-        gap: 8vw;
-    }
-}
-@media (max-width:340px ) and (min-width:324px) { 
-    .navigation {
-        gap: 4vw;
-    }
-}
-@media (max-width:324px ) and (min-width:300px) { 
-    .navigation {
-        gap: 0vw;
     }
 }

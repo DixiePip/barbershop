@@ -138,6 +138,12 @@ img {
    .borovl a:hover {
     color: #a6191c;
    }
+
+
+   .block_color {
+    /* color: #707070; */
+    text-decoration:line-through;
+}
 }
 
 @media (max-width: 370px) {

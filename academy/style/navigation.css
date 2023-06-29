@@ -31,7 +31,10 @@
         align-items: flex-end;
     }
     .navigation__item:hover {
-        color: #a6191c;
+        color: rgb(192, 112, 8);
+    }
+    .navigation {
+        gap: 55vw;
     }
 }
 

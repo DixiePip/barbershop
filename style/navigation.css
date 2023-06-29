@@ -30,21 +30,31 @@
     .navigation__list_two {
         align-items: flex-end;
     }
-    
+    .navigation__item:hover {
+        color: #a6191c;
+    }
+    .navigation {
+        gap: 55vw;
+    }
 }
 
-@media (max-width:560px ) and (min-width:380px) { 
+@media (max-width:500px ) and (min-width:400px) { 
+    .navigation {
+        gap: 50vw;
+    }
+}
+@media (max-width:454px ) and (min-width:400px) { 
+    .navigation {
+        gap: 40vw;
+    }
+}
+@media (max-width:400px ) and (min-width:323px) { 
     .navigation {
         gap: 30vw;
     }
 }
-@media (max-width:380px ) and (min-width:350px) { 
+@media (max-width:323px ) and (min-width:300px) { 
     .navigation {
-        gap: 20vw;
-    }
-}
-@media (max-width:350px ) and (min-width:300px) { 
-    .navigation {
-        gap: 15vw;
+        gap: 25vw;
     }
 }

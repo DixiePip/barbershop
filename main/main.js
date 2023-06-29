@@ -119,3 +119,4 @@ window.addEventListener('DOMContentLoaded', initSlider);
 //     }
 //     digitsCountersInit();
 // }
+

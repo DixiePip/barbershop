@@ -115,6 +115,7 @@
 @media (max-width: 560px) {
     .new__screen {
         background: url('../img/top_2.jpg') center top / cover;
+        
         padding: 0 10px;
     }
     .new__screen-h1 {
@@ -182,6 +183,14 @@
     font-weight: 400;
     font-size: 7.5vw;
    }
+
+
+
+
+
+
+
+   
 }
 
 @media (max-width: 370px) {

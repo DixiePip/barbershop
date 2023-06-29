@@ -125,6 +125,11 @@ img {
    .step_by_step__screen {
     color: #929293;
    }
+
+   .block_color {
+    /* color: #707070; */
+    text-decoration:line-through;
+}
 }
 
 @media (max-width: 370px) {
