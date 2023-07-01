@@ -86,37 +86,40 @@ const initSlider = () => {
 window.addEventListener('DOMContentLoaded', initSlider);
 
 
+// plavnii scroll
 
+const animItems = document.querySelectorAll(`._anim-items`)
+if (animItems.length > 0) {
+    window.addEventListener(`scroll`, animOnScroll)
 
-// // counter
+    function animOnScroll() {
+        for (let index = 0; index < animItems.length; index++) {
+            const animItem = animItems[index]
+            const animItemHeight = animItem.offsetHeight
+            const animItemOffSet = offset(animItem).top
+            const animStart = 4
+            let animItemPoint = window.innerHeight - animItemHeight / animStart
+            if (animItemHeight > window.innerHeight) {
+                animItemPoint = window.innerHeight - window.innerHeight / animStart
+            }
+            if ((pageYOffset > animItemOffSet - animItemPoint) && pageYOffset < (animItemOffSet + animItemHeight)) {
+                animItem.classList.add(`_active`)
+            } else {
+                if (!(animItem.classList.contains(`_anim-no-hide`))) {
+                    animItem.classList.remove(`_active`)
+                }
+            }
+        }
+    }
 
-// window.addEventListener("load", windowLoad);
+    function offset(el) {
+        const rect = el.getBoundingClientRect()
+        let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop
+        return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
+    }
 
-// function windowLoad() {
-//     function digitsCountersInit(digitsCountersItems) {
-//         let digitsCounters = digitsCountersItems ? digitsCountersItems : document.querySelectorAll("[data-digits-counter]");
-//         if (digitsCounters) {
-//             digitsCounters.forEach(digitsCounter => {
-//                 digitsCountersAnimate(digitsCounter);
-//             });
-//         }
-//     }
-
-//     function digitsCountersAnimate(digitsCounter) {
-//         let startTimestamp = null;
-//         const duration = parseInt(digitsCounter.dataset.digitsCounter) ? parseInt(digitsCounter.dataset.digitsCounter) : 1000;
-//         const startValue = parseInt(digitsCounter.innerHTML);
-//         const startPosition = 0;
-//         const step = (timestamp) => {
-//             if (!startTimestamp) startTimestamp = timestamp;
-//             const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-//             digitsCounter.innerHTML = Math.floor(progress * (startPosition + startValue));
-//             if (progress < 1) {
-//                 window.requestAnimationFrame(step);
-//             }
-//         };
-//         window.requestAnimationFrame(step);
-//     }
-//     digitsCountersInit();
-// }
-
+    setTimeout(() => {
+        animOnScroll()
+    }, 300)
+}

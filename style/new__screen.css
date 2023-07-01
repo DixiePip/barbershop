@@ -174,10 +174,14 @@
         width: 20vw;
     }
    .borovl a, .reser a {
-   
+ 
+
     text-decoration: none;
     color: rgb(115, 114, 114);
    }
+
+   
+
    .reser, .borovl {
     font-family: 'Alumni Sans';
     font-weight: 400;
