@@ -65,15 +65,17 @@ h1, p {
 
 
 .why_barber {
-    text-align: center;
+    text-align: left;
 }
 .why_barber h1 {
     font-size: 17vw;
     margin-top: 50px;
-    line-height: 0.7;
+    line-height: 0.8;
 }
 .why_barber h2 {
     color: #cef751;
+    font-size: 12vw;
+    line-height: 0.8;
 }
 .why_barber_answer ul {
     list-style-type: none;
