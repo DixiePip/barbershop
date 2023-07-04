@@ -19,22 +19,45 @@
     opacity: 1;
     transition: all 0.8s ease 0.8s;
    }   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   .animation_left {
+    transform: translate(-120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.3s;
+   }
+   .animation_left._active {
+   transform: translate(0%, 0px);
+   opacity: 1;
+   }
 
-
-   .price__item {
-    transform: translate(0px, 120%);
+   .animation_right {
+    transform: translate(-120px, 0%);
     opacity: 0;
     transition: all 0.8s ease 0s;
    }
-   .price__item._active {
-    transform: translate(0px, 5%);
-    opacity: 1;
-    transition: all 0.8s ease 0s;
+   .animation_right._active {
+   transform: translate(0%, 0px);
+   opacity: 1;
    }
-
-
-
-
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    /* footer */
    .footer__logo {
     transform: scale(0);
@@ -144,24 +167,4 @@
    .footer__copyright._active {
     transform: scale(1);
     opacity: 1;
-   }
-
-
-
-  .price__link {
-    background: linear-gradient(-45deg, #545453, #60605f, #fff, #858583, #737373, #4a4948);
-    background-size: 200% 400%;
-    animation: animat 2s ease infinite;
-   }
-
-   @keyframes animat {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 50% 100%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
    }

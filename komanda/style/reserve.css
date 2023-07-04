@@ -7,6 +7,7 @@
     margin-bottom: 15px;
     text-transform: uppercase;
     text-align: center;
+    line-height: 0.8;
 }
 .reserve__list {
     margin: 0;
@@ -101,6 +102,9 @@
         font-size: 16px;
         text-align: center;
         padding-top: 30px;
+        margin-left: -24px;
+        margin-right: -24px;
+
     }
     .reserve__list {
         gap: 50px;
@@ -117,14 +121,14 @@
         color: #fff;
     }
     .reserve__title {
-        font-size: 15vw;
+        font-size: 13vw;
         margin-bottom: 30px;
         margin-top: 0;
-        line-height: 1;
+        line-height: 0.8;
     }
     .reserve__img {
         max-width: 100%;
-        width: 80vw;
+        width: 60vw;
     }
     .reserve__list {
         margin-top: 20px;
@@ -132,7 +136,7 @@
        row-gap: 20px;
     }
     .reserve__name {
-        font-size: 11vw;
+        font-size: 9vw;
         margin-top: 4px;
         margin-bottom: 2px;
     }
@@ -149,7 +153,7 @@
     .reserve__barber_3 a,
     .reserve__barber_4 a,
     .reserve__barber_5 a {
-        font-size: 8vw;
+        font-size: 6vw;
         text-decoration: none;
         color: rgb(255, 255, 255);
         padding: 10px 20px;
@@ -164,5 +168,18 @@
 
     .reserve__barber_5 {
        margin-bottom: 0px;
+    }
+
+
+
+
+    .reserve__barber_1,
+    .reserve__barber_2,
+    .reserve__barber_3,
+    .reserve__barber_4,
+    .reserve__barber_5 {
+        background-color: #fff;
+        padding: 10px 10px 20px 10px;
+        border-radius: 5px;
     }
 }

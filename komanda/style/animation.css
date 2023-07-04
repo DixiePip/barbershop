@@ -17,24 +17,57 @@
    .logo._active {
     transform: translate(0px, 0%);
     opacity: 1;
-    transition: all 0.8s ease 0.8s;
+    transition: all 0.8s ease 0.3s;
    }   
 
 
-   .price__item {
-    transform: translate(0px, 120%);
+   .reserve__title {
+    transform: scale(0);
     opacity: 0;
     transition: all 0.8s ease 0s;
    }
-   .price__item._active {
-    transform: translate(0px, 5%);
+   .reserve__title._active {
+    transform: scale(1);
     opacity: 1;
+   }  
+
+
+   
+   .reserve__footer {
+    transform: scale(0);
+    opacity: 0;
     transition: all 0.8s ease 0s;
    }
+   .reserve__footer._active {
+    transform: scale(1);
+    opacity: 1;
+   }  
+
+
+   .reserve__barber_1,
+    .reserve__barber_2,
+    .reserve__barber_3,
+    .reserve__barber_4,
+    .reserve__barber_5 {
+        transform: translate(-120%, 0px);
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+    }
+
+    .reserve__barber_1._active,
+    .reserve__barber_2._active,
+    .reserve__barber_3._active,
+    .reserve__barber_4._active,
+    .reserve__barber_5._active  {
+        transform: translate(0%, 0px);
+        opacity: 1;
+       }   
 
 
 
 
+
+       
    /* footer */
    .footer__logo {
     transform: scale(0);
@@ -144,24 +177,4 @@
    .footer__copyright._active {
     transform: scale(1);
     opacity: 1;
-   }
-
-
-
-  .price__link {
-    background: linear-gradient(-45deg, #545453, #60605f, #fff, #858583, #737373, #4a4948);
-    background-size: 200% 400%;
-    animation: animat 2s ease infinite;
-   }
-
-   @keyframes animat {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 50% 100%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
    }
