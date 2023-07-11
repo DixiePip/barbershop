@@ -19,13 +19,13 @@
 }
 .reserve__img {
     max-width: 100%;
-    width: 250px;
-    filter: grayscale(0.5);
+    width: 200px;
+    /* filter: grayscale(0.5); */
 }
-.reserve__img:hover {
+/* .reserve__img:hover {
     filter: grayscale(0);
     transition: all 0.3s ;
-}
+} */
 .reserve__barber_1,
 .reserve__barber_2,
 .reserve__barber_3,
@@ -142,7 +142,7 @@
     }
     .reserve__name-top {
         font-size: 6vw;
-        margin-top: 2px;
+        margin-top: -13px;
         color: #9c9c9c;
     }
     .reserve__footer {
